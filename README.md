@@ -23,6 +23,8 @@ npm install -g localtunnel
 
 Esto instalará LocalTunnel y te permitirá acceder al comando lt desde cualquier directorio.
 
+antes de iniciarlo entra al archivo python que usaras y cambia la parte que dice pon tu subdominio pon el que quieras usar
+
 PARA INICIAR EL ARCHIVO:
 
 primero con python crea un servidor en el puerto 3000 con el comando:
