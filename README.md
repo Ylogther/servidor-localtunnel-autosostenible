@@ -25,8 +25,12 @@ Esto instalará LocalTunnel y te permitirá acceder al comando lt desde cualquie
 
 PARA INICIAR EL ARCHIVO:
 
+primero con python crea un servidor en el puerto 3000 con el comando:
+
+python3 -m http.server 3000
+
+ahora en otra ventana ejecuta esto:
+
 python3 verify_linux.py
 
 o el verify_win.py dependiendo el OS que tengas.
-# Prueba-
-# Prueba-
