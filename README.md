@@ -108,10 +108,10 @@ Este enlace será accesible desde cualquier parte del mundo.
 
 ### ⚠️ Antes de iniciar el script verificador
 
-Si tienes un archivo `verify_linux.py` o `verify_win.py`, asegúrate de editarlo y reemplazar el texto:
+Si tienes el archivo `verify_linux.py` o `verify_win.py`, asegúrate de editarlo y reemplazar el texto:
 
 ```python
-# "pon tu subdominio"
+# "pon-subdominio"
 ```
 
 por el subdominio que hayas elegido (sin `https://`).
