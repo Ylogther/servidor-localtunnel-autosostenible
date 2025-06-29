@@ -24,6 +24,29 @@ Ideal para compartir archivos, pruebas web o hacer debugging remoto desde cualqu
 ---
 
 ## 🚀 Instalación paso a paso
+🐧 Instalación en Arch Linux
+Instalar Node.js, npm y Python 3:
+
+bash
+Copiar código
+sudo pacman -S --needed nodejs npm python
+Instalar LocalTunnel globalmente con npm:
+
+bash
+Copiar código
+sudo npm install -g localtunnel
+Esto instalará el comando lt accesible desde cualquier terminal.
+
+Verificar instalaciones:
+
+bash
+Copiar código
+node -v
+npm -v
+python3 --version
+lt --help
+
+#Instalación en Windows 
 
 ### 🔹 Paso 1: Instalar Node.js
 
@@ -68,15 +91,9 @@ Esto iniciará un servidor en `http://localhost:3000`.
 Abre otra terminal y ejecuta:
 
 ```bash
-lt --port 3000 --subdomain NOMBRE
+python3 verify_linux.py # o el OS que tengas
 ```
 
-> Reemplaza `NOMBRE` con el subdominio que quieras (si está disponible).
-
-Ejemplo:
-
-```bash
-lt --port 3000 --subdomain pruebascript
 ```
 
 Resultado esperado:
